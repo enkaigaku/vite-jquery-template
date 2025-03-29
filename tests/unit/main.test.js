@@ -10,7 +10,6 @@ describe("Test entry page", () => {
   });
 
   test("should render content correctly", () => {
-    init();
     expect($("#content").find("p").length).toBe(1);
     expect($("#content p").text()).toBe(
       "This is the content inserted by jQuery"
